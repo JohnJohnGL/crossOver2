@@ -15,7 +15,70 @@
 
 /* john */
 .jfooter{
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
+}
+.jbottomleft{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.jsomething{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+    border-radius: 20px 20px 20px 20px;
+}
+.jButton{
+    border: 2px solid rgb(71, 92, 129);
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    color: rgb(71, 92, 129);
+}
+.jButton:hover {
+    transition: ease 0.3s;
+    background-color: rgb(71, 92, 129);
+    color: white;
+}
+.jmiddle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.jp{
+    padding: 0;
+    margin: 5%;
+    margin-left: 0;
+    text-align: left;
+}
+.jtext{
+    width: 50%;
+}
+.jpng{
+    height: 90%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.dropdown{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    width: 10%;
+}
+.jEU{
+    padding: 0;
+    margin: 0;
+}
+#dropdownMenuButton{
+    display: flex;
+    height: 40px;
+    background-color: white;
+    color: rgb(71, 72, 73);
+}
+.dropdown-toggle::after {
+    color: rgb(71, 92, 129);
 }
 .fa {
     padding: 20px;
@@ -24,6 +87,11 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+}
+.fa:hover{
+    background-color: rgb(71, 92, 129);
+    color: white;
+    text-decoration: none;
 }
 .jinfo{
     display: flex;
@@ -58,6 +126,13 @@
     display: flex;
     justify-content: right;
 }
+.theArrowJ :hover{
+    transition: ease 0.3s;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(71, 92, 129);
+    border: 2px solid rgb(71, 92, 129)
+}
 .jUL{
     list-style: none;
     padding: 0;
@@ -75,22 +150,30 @@
     font-weight: lighter;
 }
 .jfooterbottom{
-    display: flex;
     width: 80vw;
-    margin-left: 5%;
-    justify-content:space-between;
-}
-.jlogos{
-    width: 40%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 5%;
+    justify-content: space-between;
     text-align: center;
 }
+.jbottomleft{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .fa{
     background-color: rgb(71, 72, 73);
     height: 20px;
     color: white;
+}
+.jlogos{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .jlogos a {
     display: flex;
@@ -98,7 +181,8 @@
     align-items: center;
     text-decoration: none; 
     margin: 5%;
-}
+} 
+
 /* nita */
 .para-container1 {
     display:block;
