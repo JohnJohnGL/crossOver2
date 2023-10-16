@@ -14,7 +14,195 @@
 
 
 /* john */
-
+.jfooter{
+    background-color: lightgray;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.jinfo{
+    display: flex;
+    margin-left: 5%;
+    width: 80vw;
+    padding: 0;
+    align-self: center;
+    border-bottom: 2px solid white;
+}
+.jinfo1{
+    margin: 5%;
+    text-align: left;
+}
+.jinfo12{
+    margin: 5%;
+    text-align: left;
+    margin-left: 0;
+}
+.jarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(71, 92, 129);
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5%;
+    margin-top: 3%;
+    color: white;
+}
+.theArrowJ{
+    display: flex;
+    justify-content: right;
+}
+.jUL{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 170px;
+    margin-top: 15%;
+}
+.jLI{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+.jH4{
+    display: flex;
+    font-weight: lighter;
+}
+.jfooterbottom{
+    display: flex;
+    width: 80vw;
+    margin-left: 5%;
+    justify-content:space-between;
+}
+.jlogos{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fa{
+    background-color: rgb(71, 72, 73);
+    height: 20px;
+    color: white;
+}
+.jlogos a {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    text-decoration: none; 
+    margin: 5%;
+}
 /* nita */
+.para-container1 {
+    display:block;
+
+     margin-left:40px;
+     margin-right: 80px;
+     margin-top:80px ;
+     font-size :28px;
+     font-weight: 400;
+      text-align:center ;
+   font-family: Roboto, sans-serif;
+   color: rgb(89, 92, 93);
+   box-sizing: border-box;
+   align-content: center;
+   
+}
+.para-container2 h2{
+    display: block;
+    box-sizing: border-box;
+    font-size: 2.1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color:inherit;
+    color:#595c5d;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px 10px;
+    align-items: stretch;
+    }
+    .para-container3{
+        display: flex;
+        margin-top: 5%;
+    }
+    .image-container1{
+        max-height: fit-content;
+        margin-left: 20%;
+    
+
+
+    }
+    .para-container4{
+
+    }
+    p{ 
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end:0px;
+        margin-left:50px ;
+        margin-right: 50px;
+        margin-right:20% ;
+        font-size: larger;
+
+    }
+    .para-container7{
+        display:flex;
+    }
+
+
+
+
+
+
 
 /* anh */
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 7rem;
+}
+.card {
+  margin: 0 1em;
+  width: calc(100% / 3);
+  border-radius: 30px;
+}
+.card-body button {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.page2-line {
+  width: 140px;
+  height: 4px;
+  background-color: #007398;
+  margin-top: 1rem;
+}
+.page2 {
+  background-color: rgb(230, 230, 230);
+}
