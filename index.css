@@ -1,7 +1,91 @@
 /* rohini */
 
 /* john */
-
+.jfooter{
+    background-color: lightgray;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.jinfo{
+    display: flex;
+    margin-left: 5%;
+    width: 80vw;
+    padding: 0;
+    align-self: center;
+    border-bottom: 2px solid white;
+}
+.jinfo1{
+    margin: 5%;
+    text-align: left;
+}
+.jinfo12{
+    margin: 5%;
+    text-align: left;
+    margin-left: 0;
+}
+.jarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(71, 92, 129);
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5%;
+    margin-top: 3%;
+    color: white;
+}
+.theArrowJ{
+    display: flex;
+    justify-content: right;
+}
+.jUL{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 170px;
+    margin-top: 15%;
+}
+.jLI{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+.jH4{
+    display: flex;
+    font-weight: lighter;
+}
+.jfooterbottom{
+    display: flex;
+    width: 80vw;
+    margin-left: 5%;
+    justify-content:space-between;
+}
+.jlogos{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fa{
+    background-color: rgb(71, 72, 73);
+    height: 20px;
+    color: white;
+}
+.jlogos a {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    text-decoration: none; 
+    margin: 5%;
+}
 /* nita */
 
 /* anh */
