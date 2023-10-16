@@ -5,3 +5,43 @@
 /* nita */
 
 /* anh */
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 7rem;
+}
+.card {
+  margin: 0 1em;
+  width: calc(100% / 3);
+  border-radius: 30px;
+}
+.card-body button {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.page2-line {
+  width: 140px;
+  height: 4px;
+  background-color: #007398;
+  margin-top: 1rem;
+}
+.page2 {
+  background-color: rgb(230, 230, 230);
+}
