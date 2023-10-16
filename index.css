@@ -1,4 +1,5 @@
 /* rohini */
+
 .container-fluid {
   /* display: flex;
     justify-content: center; */
@@ -17,6 +18,7 @@ quasargetter
 Adnan [WD#039 - Alumni] — 10.07.2023 10:44
 guys, if u download the project zip, tehre u will find the style-guide.md file, u can open this file in vscode, where some style instructions are written,
 # Front-end Style Guide
+
 
 ## Layout
 
@@ -485,7 +487,7 @@ display:block;
         max-width: 600px;
        }
     
-    p{ 
+
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
